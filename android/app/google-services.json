@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1085113433301",
+    "project_id": "skillseekho-1e12b",
+    "storage_bucket": "skillseekho-1e12b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085113433301:android:d77e9f11d3574b283cf65c",
+        "android_client_info": {
+          "package_name": "com.example.smart_car_parking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085113433301-kl153l566mhiqemfgje82el52t93vqtm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBRCGssYU4X1F7MSFDPMTB4XP4WU1meGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085113433301-kl153l566mhiqemfgje82el52t93vqtm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
