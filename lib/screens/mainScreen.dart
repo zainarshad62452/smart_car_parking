@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:smart_car_parking/screens/snackbar.dart';
+import 'package:smart_car_parking/services/Authentication.dart';
 import 'package:smart_car_parking/services/parkingServices.dart';
 
 import '../controllers/loading.dart';
@@ -54,6 +55,13 @@ class _MainScreenState extends State<MainScreen> {
                     },context);
 
               },child: Text("Park Car",style: TextStyle(color: Colors.white,),),),
+            SizedBox(height: 30.0,),
+            MaterialButton(
+              color: Colors.deepPurpleAccent.shade700,
+              onPressed: () async {
+                Authentication().signOut();
+
+              },child: Text("Sign Out",style: TextStyle(color: Colors.white,),),),
           ],
         ),
       ),
